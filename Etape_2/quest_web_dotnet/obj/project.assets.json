@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "CData.MySQL.EntityFrameworkCore/23.0.8771": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/CData.EntityFrameworkCore.MySQL.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/CData.EntityFrameworkCore.MySQL.dll": {}
+        }
+      },
       "Microsoft.EntityFrameworkCore/7.0.2": {
         "type": "package",
         "dependencies": {
@@ -373,6 +385,21 @@
     }
   },
   "libraries": {
+    "CData.MySQL.EntityFrameworkCore/23.0.8771": {
+      "sha512": "WT9GxGMP7ziVUDIsDemR6WhM5KuMdTmFIwBliqfLsSbqNPsTINiqeHU0YJ+hOBSpuWCJw4gZyR5JCHtcFvCgsg==",
+      "type": "package",
+      "path": "cdata.mysql.entityframeworkcore/23.0.8771",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "cdata.mysql.entityframeworkcore.23.0.8771.nupkg.sha512",
+        "cdata.mysql.entityframeworkcore.nuspec",
+        "lib/net6.0/CData.EntityFrameworkCore.MySQL.dll",
+        "license.txt",
+        "otherFiles/nuget.png",
+        "otherFiles/readme.md"
+      ]
+    },
     "Microsoft.EntityFrameworkCore/7.0.2": {
       "sha512": "5QEspjTHk/cgM98AaB12mDXF7jlInlYhG0gxS6X8ZJ2rzmyIAsvYNEwoOUifd/gt5v5HblYClYfZ9YYIEjSkew==",
       "type": "package",
@@ -1134,6 +1161,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "CData.MySQL.EntityFrameworkCore >= 23.0.8771",
       "Pomelo.EntityFrameworkCore.MySql >= 7.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
@@ -1175,6 +1203,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "CData.MySQL.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[23.0.8771, )"
+          },
           "Pomelo.EntityFrameworkCore.MySql": {
             "target": "Package",
             "version": "[7.0.0, )"
