@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\nakhi\\Documents\\GitHub\\WEB4\\Etape_2\\quest_web_dotnet\\quest_web.csproj": {}
+    "C:\\Users\\nakhi\\Documents\\GitHub\\WEB4\\Etape_2\\quest_web_dotnet\\quest_web.csproj": {}
   },
   "projects": {
-    "c:\\Users\\nakhi\\Documents\\GitHub\\WEB4\\Etape_2\\quest_web_dotnet\\quest_web.csproj": {
+    "C:\\Users\\nakhi\\Documents\\GitHub\\WEB4\\Etape_2\\quest_web_dotnet\\quest_web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\nakhi\\Documents\\GitHub\\WEB4\\Etape_2\\quest_web_dotnet\\quest_web.csproj",
+        "projectUniqueName": "C:\\Users\\nakhi\\Documents\\GitHub\\WEB4\\Etape_2\\quest_web_dotnet\\quest_web.csproj",
         "projectName": "quest_web",
-        "projectPath": "c:\\Users\\nakhi\\Documents\\GitHub\\WEB4\\Etape_2\\quest_web_dotnet\\quest_web.csproj",
+        "projectPath": "C:\\Users\\nakhi\\Documents\\GitHub\\WEB4\\Etape_2\\quest_web_dotnet\\quest_web.csproj",
         "packagesPath": "C:\\Users\\nakhi\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\nakhi\\Documents\\GitHub\\WEB4\\Etape_2\\quest_web_dotnet\\obj\\",
+        "outputPath": "C:\\Users\\nakhi\\Documents\\GitHub\\WEB4\\Etape_2\\quest_web_dotnet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nakhi\\AppData\\Roaming\\NuGet\\NuGet.Config"
