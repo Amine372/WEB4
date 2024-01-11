@@ -6,6 +6,6 @@ public class APIDbContext : DbContext
     {
     }
 
-    // DbSet pour vos entités, par exemple :
-    // public DbSet<User> Users { get; set; }
+    // DbSet pour vos entités
+    public DbSet<User> Users { get; set; }
 }
