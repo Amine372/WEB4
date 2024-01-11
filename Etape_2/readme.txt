@@ -37,12 +37,10 @@ Cela générera un fichier JAR exécutable dans le dossier `target`.
 - Autres dépendances nécessaires pour votre projet
 
 ## Auteur
-[Votre Nom]
+Amine NAKHIL
 
 ## Licence
-[Informations sur la licence si applicable]
+Aucune
 
-## Remerciements
-- Mentionnez toute personne ou ressource qui a aidé dans le développement de ce projet.
 
 
